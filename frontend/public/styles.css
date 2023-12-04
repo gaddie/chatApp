@@ -1,0 +1,65 @@
+/* Chat Window Container */
+.chat-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Send Button */
+.send-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Send Button Hover Effect */
+.send-button:hover {
+  background-color: #45a049;
+}
+
+/* ... Your existing CSS ... */
+
+/* Input Area */
+.input-area {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  margin-top: 50px;
+  height: 400px;
+}
+
+/* Sender Input */
+.sender-input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Message Input */
+.message-input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  height: 400px;
+  resize: none;
+}
+
+/* Send Button */
+.send-button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Send Button Hover Effect */
+.send-button:hover {
+  background-color: #45a049;
+}
+
+/* ... Your existing CSS ... */
